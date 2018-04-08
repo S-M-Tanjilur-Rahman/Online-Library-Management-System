@@ -1,0 +1,108 @@
+#background{
+          width:100%;
+          height:auto;
+          top:0px;
+          left:0px;
+          position:fixed;
+          z-index:-999;
+          min-width:1040px;
+          min-height:100%;
+	}
+#container{
+          width:610px;
+          height:400px;
+          border:.2px solid black ;
+          margin-left:auto;
+          margin-right:auto;
+          margin-top:50px;
+          margin-bottom:21px;
+          padding:;
+          background:;
+          border-radius:3px ;
+	}
+
+#button{
+
+          width:150px;
+          height:20px;
+          background-color:;
+	  margin-left:450px;
+          margin-right:auto;
+          margin-top:140px;
+          margin-bottom:21px;
+          float:left;
+          border-radius: ;
+          padding:4px;
+}
+#caption{
+          width:300px;
+          height:20px;
+          border:0px none ;
+          margin-left:550px;
+          margin-right:auto;
+          margin-top:40px;
+          margin-bottom:21px;
+	  font-size:30px;
+	  font-color:#8cb3d9;
+          padding:;
+          background:;
+          border-radius:1px ;
+	}
+#header{
+          width:610px;
+          height:65px;
+          border:0px solid #faf8f7;
+
+          padding:5px;
+          background:;
+	}
+
+#header ul {
+          margin:0;
+          padding:0;
+	}
+
+#header li {
+          list-style-type:none;
+          float:left;
+          display:block;
+          width:195px;
+          height:55px;
+          border:2px solid #ccccff;
+          text-align:center;
+          line-height:40px;
+          border-radius:7px ;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size:20px;
+	  font-color:#ff8080;
+          background: #33bbff;
+          transition: background 0.3s linear 0s, color 0.3s linear 0s;
+          cursor: pointer;
+          position:relative;
+	}
+
+#header li a {
+          text-decoration:none;
+		  color:#808080;
+          display:block;
+	}
+
+#header li:Hover {
+          background-color:#809fff;
+	}
+
+#header ul ul{
+          position:absolute;
+          display:none;
+	}
+
+#header ul li:hover > ul{
+          display:block;
+          z-index: 999;
+	}
+
+#header ul ul ul{
+          margin-left:192px;
+          top:0px;
+          z-index: 999;
+	}
